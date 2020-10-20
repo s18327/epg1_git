@@ -1,0 +1,25 @@
+249  cd Desktop
+250  git clone httpsgithub.coms18327epg1_git.git 
+251  git checkout -b hw-s18327 master 
+252  ls 
+253  cd epg1_git 
+254  git checkout -b hw-s18327 master 
+255  git checkout rebase-me     
+256  git rebase hw-s18327 
+257  git checkout rebase-me   
+258  git merge hw-s18327    
+259  git rebase hw-s18327 
+260  git merge rebase-me   
+261  git rebase hw-s18327   
+262  git merge hw-s18327  
+265  git help
+266  git merge merge-me
+267  git merge originmerge-me 
+268  git merge --abort   
+269  git rebase hw-s18327 
+270  git merge originmerge-me 
+271  git status   
+272  git add README.md  
+273  git merge originmerge-me    
+274  git mergetool     
+275  git commit 
